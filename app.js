@@ -25,14 +25,6 @@ const winPatterns = [
     boxes.forEach((box, index)=>{
         box.addEventListener("click",()=>{
             
-            reset.addEventListener("click",()=>{
-                palyerX = true;
-                XPattern =[];
-                OPattern =[];
-                box.innerText = "";
-                box.disabled = false;
-                winner.innerText = "Tic-Tac-Toe"
-            }) 
 
             if(palyerX){
             box.innerText = "X";
